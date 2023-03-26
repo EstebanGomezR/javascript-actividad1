@@ -110,7 +110,7 @@ h1 {
   color: #807c72;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
   body {
     height: auto;
   }
