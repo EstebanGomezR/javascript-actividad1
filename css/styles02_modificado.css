@@ -1,0 +1,219 @@
+
+
+body {
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url('../images/fondo_actividad2.jpg');
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1. 4em;
+    margin: 0px;
+    background-repeat: no-repeat;
+    min-height: 98vh;
+    background-size: cover;
+    display: flex;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 15px auto 15px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+/* header {
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+} */
+
+header{
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+
+}
+.title {
+    width: 100%;
+    height: 80%;
+    margin: 0px;
+}
+.title img{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    background-color: #aeaca8;
+    height: 20%;
+}
+
+footer {
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    height: 30px;
+}
+
+nav ul {
+    margin: 0%;
+    margin: 0%;
+    gap: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: #ffffff;
+}
+
+nav li a:hover,
+nav li a.current {
+    color: #000000;
+}
+.contenido{
+    display: flex;
+}
+section.courses {
+    float: left;
+    width: 75%;
+    border-right: 1px solid #eeeeee;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 80%;
+}
+
+hgroup {
+    margin-top: 40px;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+
+aside {
+    width: 25%;
+    padding: 0px 0px 5% 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+    color: #2bc15f;
+    background-color: #efefef;
+}
+.contenido img{
+    height: 80%;
+    width: 100%;
+    border-radius: 100%;
+}
+.contenido img:hover{
+    border-radius: 0%;
+    transition-duration: 0.2s;
+}
+
+a {
+    color: #2bc15f;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #2bc15f;
+}
+
+aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: #2bc15f;
+}
+
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 90%;
+        margin: 5px auto 5px auto;
+        border: 2px solid #000000;
+        background-color: #ffffff;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul{
+        width: 100%;
+        margin: 0%;
+        gap: 2%;
+        padding: 3% 0 3% 0;
+    };
+    nav li {
+        display: inline-block;
+    }
+
+
+    .container {
+        padding: 10px;
+    }
+    .contenido{
+        display: flex;
+        flex-direction: column;
+    }
+    section.courses {
+        width: 100%;
+        padding: 0 2% 0 2%;
+    }
+    aside {
+        width: 100%;
+        padding: 0px 3% 0px 3%;
+    }
+    aside section a {
+      width: 80%;
+    }
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 5px;
+    }
+}
