@@ -154,6 +154,7 @@ select {
 
     body {
         size: 28px;
+        margin-left: 3%;
     }
 
     h1 {
