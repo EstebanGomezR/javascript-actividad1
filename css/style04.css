@@ -165,6 +165,10 @@ h1 {
     width: 22%;
     
   }
+  .container_12 .grid_3 img{
+    width: 100%;
+    
+  }
   .container_12 .push_9 {
     left: 0px;
   }
@@ -181,9 +185,6 @@ h1 {
   .container_12 .grid_12 {
     width: 100%;
   }
-  .ejemplo
-  {
-    display: none;
-  }
+  
   
 }
