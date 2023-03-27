@@ -181,5 +181,9 @@ h1 {
   .container_12 .grid_12 {
     width: 100%;
   }
+  .ejemplo
+  {
+    display: none;
+  }
   
 }
